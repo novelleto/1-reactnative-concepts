@@ -63,7 +63,6 @@ export default function App() {
                     {repository.likes} curtida{repository.likes > 1 ? 's' : ''}
                   </Text>
                 </View>
-
                 <TouchableOpacity
                   style={styles.button}
                   onPress={() => handleLikeRepository(repository.id)}
